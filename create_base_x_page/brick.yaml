@@ -1,0 +1,24 @@
+name: basex_page
+description: A Mason to create baseX page with bindings and controller
+
+version: 0.0.1
+
+environment:
+  mason: ">=0.1.0-dev.46 <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: Your file name
+    default: change password
+    prompt: What is your file name?
+  module_path: 
+    type: string
+    description: Your module name
+    default: auth
+    prompt: What is your module folder name?
+  required_binding:
+    type: boolean
+    description: Do you required binding file?
+    default: true
+    prompt: Do you required binding file?
