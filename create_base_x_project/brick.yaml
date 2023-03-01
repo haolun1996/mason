@@ -1,0 +1,14 @@
+name: basex_project
+description: A Mason to create baseX project
+
+version: 0.0.4
+
+environment:
+  mason: ">=0.1.0-dev.46 <0.1.0"
+
+vars:
+  project_name:
+    type: string
+    description: Your Project name
+    default: Project Name
+    prompt: What is your project name?

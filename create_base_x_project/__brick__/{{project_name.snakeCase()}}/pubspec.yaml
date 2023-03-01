@@ -1,0 +1,27 @@
+name: {{project_name.snakeCase()}}
+description: A new Flutter project run with flutter 3.7.x.
+publish_to: 'none' # Dont Remove this !!!
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.1 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  baseX:
+    git: 
+      url: https://github.com/haolun1996/baseX.git
+      ref: 0.0.2
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.17
+  faker: ^2.1.0
+
+  # ===-===-=== Add new plugin below this line ===-===-===
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
