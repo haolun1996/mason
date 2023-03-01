@@ -1,0 +1,7 @@
+    #! /usr/bin/env bash
+
+    dart pub global activate mason_cli
+
+    mason add -g basex_page --git-url https://github.com/haolun1996/mason.git --git-path create_base_x_page
+
+    mason add -g basex_project --git-url https://github.com/haolun1996/mason.git --git-path create_base_x_project
