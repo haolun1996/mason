@@ -1,7 +1,7 @@
 name: basex_project
 description: A Mason to create baseX project
 
-version: 0.0.4
+version: 0.0.1
 
 environment:
   mason: ">=0.1.0-dev.46 <0.1.0"
